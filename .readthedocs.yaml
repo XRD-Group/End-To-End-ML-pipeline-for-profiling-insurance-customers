@@ -9,8 +9,7 @@
    # https://docs.readthedocs.io/page/guides/reproducible-builds.html
    jobs:
      pre_install:
-       - pip install mkdocs-material
-       - pip install mkapi
+       - pip install mkdocs-material mkapi mkdocs-jupyter
 
  mkdocs:
    configuration: docs/mkdocs.yml

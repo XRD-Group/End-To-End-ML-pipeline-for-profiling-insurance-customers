@@ -10,7 +10,13 @@ nav:
   - Home: index.md
   - API Reference:
     - $api/policyML.***
+  - Notebooks: 
+    - notebooks/model_experiments.ipynb
+    - notebooks/gold_tables.ipynb
+    - notebooks/data_explore.ipynb
+
 
 plugins: 
   - search
+  - mkdocs-jupyter
   - mkapi
